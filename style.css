@@ -366,7 +366,8 @@ li {
 }
 
 .trusted__text {
-  font-size: 1.6rem;
+  font-size: 1.9rem;
+  font-weight: 500;
 }
 
 .trusted--block .grid {
@@ -374,8 +375,8 @@ li {
   grid-template-columns: 1fr 1fr;
 }
 .trusted--block .grid img {
-  width: 3rem;
-  height: 3rem;
+  width: 100%;
+  height: auto;
   margin-bottom: -0.5rem;
 }
 
