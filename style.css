@@ -269,11 +269,18 @@ li {
 }
 
 .media .icon {
-  display: block;
+  color: #fff;
+  background-color: var(--color-primary);
+  display: flex;
   margin: 1rem 0;
+  width: 4rem;
+  height: 4rem;
+  border-radius: .5rem;
+  align-items: center;
 }
-.media .icon img {
-  border-radius: 1rem;
+.media .icon i{
+  margin: .9rem;
+  font-size: 2rem;
 }
 
 .media__tag {
