@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script
       src="https://kit.fontawesome.com/93d7e19d49.js"
       crossorigin="anonymous"
@@ -42,14 +43,14 @@
     </nav>
 
     <main class="banner container">
-      <h2 class="banner__heading container">
-        Accounting <span>made&nbsp;simple</span> for small businesses.
+      <h2 class="banner__heading container" data-aos="slide-right">
+        Accounting <span data-aos="zoom-in" data-aos-duration="2500">made&nbsp;simple</span> for small businesses.
       </h2>
       <p class="banner__text">
         Most bookkeeping software is accurate, but hard to use. We make the
         opposite trade-off and hope you dont get audited
       </p>
-      <div class="banner__btns">
+      <div class="banner__btns" data-aos="slide-right">
         <button class="btn btn__secondary">Get 6 months free</button>
         <button class="btn btn__tertiary">
           <i class="fa fa-play"></i> Watch Video
@@ -62,22 +63,22 @@
         <p class="trusted__text">Trusted by these six companies so far</p>
       </header>
       <div class="grid">
-        <div class="grid__item trusted__text">
+        <div class="grid__item trusted__text" data-aos="slide-right">
           <img src="./images/transistor.7274e6c3.svg" />
         </div>
-        <div class="grid__item trusted__text">
+        <div class="grid__item trusted__text" data-aos="slide-up">
           <img src="./images/mirage.18d2ec4e.svg" />
         </div>
-        <div class="grid__item trusted__text">
+        <div class="grid__item trusted__text" data-aos="slide-left">
           <img src="./images/tuple.74eb0ae0.svg" />
         </div>
-        <div class="grid__item trusted__text">
+        <div class="grid__item trusted__text" data-aos="slide-right">
           <img src="./images/laravel.7deed17e.svg" />
         </div>
-        <div class="grid__item trusted__text">
+        <div class="grid__item trusted__text" data-aos="slide-up">
           <img src="./images/statickit.d7937794.svg" />
         </div>
-        <div class="grid__item trusted__text">
+        <div class="grid__item trusted__text" data-aos="slide-left">
           <img src="./images/statamic.6da5ebfb.svg" />
         </div>
       </div>
@@ -543,5 +544,9 @@
     </footer>
 
     <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
